@@ -1,0 +1,122 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{386233FC-E54D-401D-BAAE-E0B9BF3DC789}</ProjectGuid>
+			<ProjectVersion>12.0</ProjectVersion>
+			<MainSource>ProjectMonitorOrders.dpr</MainSource>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_UsePackage>vcl;rtl;vclx;vclimg;vclactnband;dbrtl;vcldb;vcldbx;bdertl;vcltouch;xmlrtl;dsnap;dsnapcon;TeeUI;TeeDB;Tee;vclib;ibxpress;adortl;IndyCore;IndySystem;IndyProtocols;inet;intrawebdb_100_140;Intraweb_100_140;VclSmp;vclie;websnap;webdsnap;inetdb;inetdbbde;inetdbxpress;soaprtl;vclribbon;dbexpress;DbxCommonDriver;DataSnapIndy10ServerTransport;DataSnapProviderClient;DbxClientDriver;DataSnapServer;DBXInterBaseDriver;DBXMySQLDriver;dbxcds;DBXFirebirdDriver;DBXSybaseASEDriver;DBXSybaseASADriver;DBXOracleDriver;DBXMSSQLDriver;DBXInformixDriver;DBXDb2Driver;tmsd2010;Jcl;JclVcl;JvCoreD14R;JvSystemD14R;JvStdCtrlsD14R;JvAppFrmD14R;JvBandsD14R;JvDBD14R;JvDlgsD14R;JvBDED14R;JvCmpD14R;JvCryptD14R;JvCtrlsD14R;JvCustomD14R;JvDockingD14R;JvDotNetCtrlsD14R;JvEDID14R;JvGlobusD14R;JvHMID14R;JvInterpreterD14R;JvJansD14R;JvManagedThreadsD14R;JvMMD14R;JvNetD14R;JvPageCompsD14R;JvPluginD14R;JvPrintPreviewD14R;JvRuntimeDesignD14R;JvTimeFrameworkD14R;JvValidatorsD14R;JvWizardD14R;JvXPCtrlsD14R;dxSkinSilverBlitzRS14;dxSkinsCoreRS14;cxLibraryRS14;dxGDIPlusRS14;dxCoreRS14;dxThemeRS14;dxSkinBlitz2013RS14;cxPageControlRS14;dxServerModeRS14;cxDataRS14;dxDBXServerModeRS14;dxADOServerModeRS14;cxEditorsRS14;dxWizardControlRS14;cxBarEditItemRS14;dxBarRS14;dxComnRS14;dxBarExtDBItemsRS14;dxBarExtItemsRS14;dxBarDBNavRS14;dxRibbonRS14;dxTabbedMDIRS14;dxDockingRS14;dxLayoutControlRS14;cxSchedulerRS14;cxExportRS14;cxTreeListRS14;cxGridRS14;cxVerticalGridRS14;dxmdsRS14;dxSpellCheckerRS14;cxSpreadSheetRS14;dxTileControlRS14;dxNavBarRS14;dxSkinBlackRS14;dxSkinBlueprintRS14;dxSkinBlueRS14;dxSkinCaramelRS14;dxSkinCoffeeRS14;dxSkinDarkRoomRS14;dxSkinDarkSideRS14;dxSkinDevExpressDarkStyleRS14;dxSkinDevExpressStyleRS14;dxSkinFoggyRS14;dxSkinGlassOceansRS14;dxSkinHighContrastRS14;dxSkiniMaginaryRS14;dxSkinLilianRS14;dxSkinLiquidSkyRS14;dxSkinLondonLiquidSkyRS14;dxSkinMcSkinRS14;dxSkinMetropolisDarkRS14;dxSkinMetropolisRS14;dxSkinMoneyTwinsRS14;dxSkinOffice2007BlackRS14;dxSkinOffice2007BlueRS14;dxSkinOffice2007GreenRS14;dxSkinOffice2007PinkRS14;dxSkinOffice2007SilverRS14;dxSkinOffice2010BlackRS14;dxSkinOffice2010BlueRS14;dxSkinOffice2010SilverRS14;dxSkinOffice2013DarkGrayRS14;dxSkinOffice2013LightGrayRS14;dxSkinOffice2013WhiteRS14;dxSkinPumpkinRS14;dxSkinSevenClassicRS14;dxSkinSevenRS14;dxSkinSharpPlusRS14;dxSkinSharpRS14;dxSkinSilverRS14;dxSkinSpringTimeRS14;dxSkinStardustRS14;dxSkinSummer2008RS14;dxSkinTheAsphaltWorldRS14;dxSkinValentineRS14;dxSkinVS2010RS14;dxSkinWhiteprintRS14;dxSkinXmas2008BlueRS14;dxPSCoreRS14;dxPSTeeChartRS14;dxPSLnksRS14;dxPSDBTeeChartRS14;dxPScxPCProdRS14;cxPivotGridRS14;cxPivotGridOLAPRS14;dxdbtrRS14;dxtrmdRS14;dxorgcRS14;dxdborRS14;dxFlowChartRS14;dxMapControlRS14;dxSpreadSheetRS14;dxGaugeControlRS14;dxRibbonCustomizationFormRS14;cxSchedulerRibbonStyleEventEditorRS14;cxSchedulerGridRS14;cxSchedulerTreeBrowserRS14;cxTreeListdxBarPopupMenuRS14;dxSkinscxPCPainterRS14;dxSkinscxSchedulerPainterRS14;dxSkinsdxBarPainterRS14;dxSkinsdxNavBarPainterRS14;dxSkinsdxRibbonPainterRS14;dxSkinsdxDLPainterRS14;dxPScxCommonRS14;dxPScxExtCommonRS14;dxPSdxLCLnkRS14;dxPScxPivotGridLnkRS14;dxPScxSchedulerLnkRS14;dxPScxSSLnkRS14;dxPScxTLLnkRS14;dxPScxVGridLnkRS14;dxPSdxDBOCLnkRS14;dxPSdxOCLnkRS14;dxPSdxDBTVLnkRS14;dxPSdxFCLnkRS14;dxPSdxGaugeControlLnkRS14;dxPScxGridLnkRS14;dxPSdxSpreadSheetLnkRS14;dxPsPrVwAdvRS14;dxPSPrVwRibbonRS14;cxPivotGridChartRS14</DCC_UsePackage>
+			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;$(DCC_UnitAlias)</DCC_UnitAlias>
+			<DCC_DependencyCheckOutputName>ProjectMonitorOrders.exe</DCC_DependencyCheckOutputName>
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+			<DCC_Platform>x86</DCC_Platform>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="ProjectMonitorOrders.dpr">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="UnitMain.pas">
+				<Form>Form_Main</Form>
+			</DCCReference>
+			<DCCReference Include="UnitOrderErrors.pas">
+				<Form>Form_OrderErrors</Form>
+			</DCCReference>
+			<DCCReference Include="UnitAbout.pas">
+				<Form>Form_About</Form>
+			</DCCReference>
+			<DCCReference Include="UnitOrderRows.pas">
+				<Form>FormOrderRows</Form>
+			</DCCReference>
+			<DCCReference Include="UnitCheckGPS.pas">
+				<Form>Form_CheckGPS</Form>
+			</DCCReference>
+			<DCCReference Include="Unit_GPSInfo.pas">
+				<Form>Form_GPSInfo</Form>
+			</DCCReference>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Source>
+						<Source Name="MainSource">ProjectMonitorOrders.dpr</Source>
+					</Source>
+					<Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">2</VersionInfo>
+						<VersionInfo Name="MinorVer">3</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">33</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1049</VersionInfo>
+						<VersionInfo Name="CodePage">1251</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName">Alef Vinal</VersionInfoKeys>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">2.3.0.33</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright">Alef Vinal</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalTrademarks">Alef Vinal</VersionInfoKeys>
+						<VersionInfoKeys Name="OriginalFilename">MonitorOrders</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductName">MonitorOrders</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductVersion">2.3.0.33</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\dcloffice2k140.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\dclofficexp140.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+						<Excluded_Packages Name="C:\Users\Public\Documents\RAD Studio\7.0\Bpl\dxSkinSilverBlitz14RS14.bpl">File C:\Users\Public\Documents\RAD Studio\7.0\Bpl\dxSkinSilverBlitz14RS14.bpl not found</Excluded_Packages>
+					</Excluded_Packages>
+				</Delphi.Personality>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>

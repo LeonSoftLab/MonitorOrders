@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014.07.18 12:02:30.858.pas,C:\Users\slavinsky\Documents\RAD Studio\Projects\Unit1.pas=C:\Project\MonitorOrders\UnitMain.pas</Transaction>
+    <Transaction>2014.07.18 12:02:30.858.dfm,C:\Users\slavinsky\Documents\RAD Studio\Projects\Unit1.dfm=C:\Project\MonitorOrders\UnitMain.dfm</Transaction>
+    <Transaction>2014.07.18 12:02:39.311.dproj,C:\Users\slavinsky\Documents\RAD Studio\Projects\Project1.dproj=C:\Project\MonitorOrders\ProjectMonitorOrders.dproj</Transaction>
+    <Transaction>2014.07.29 20:11:33.154.pas,C:\Project\MonitorOrders\Unit1.pas=C:\Project\MonitorOrders\UnitOrderErrors.pas</Transaction>
+    <Transaction>2014.07.29 20:11:33.154.dfm,C:\Project\MonitorOrders\Unit1.dfm=C:\Project\MonitorOrders\UnitOrderErrors.dfm</Transaction>
+    <Transaction>2014.08.04 14:46:17.761.pas,C:\Project\MonitorOrders\Unit1.pas=C:\Project\MonitorOrders\UnitAbout.pas</Transaction>
+    <Transaction>2014.08.04 14:46:17.761.dfm,C:\Project\MonitorOrders\Unit1.dfm=C:\Project\MonitorOrders\UnitAbout.dfm</Transaction>
+    <Transaction>2014.08.15 10:07:39.918.pas,C:\Project\MonitorOrders\Unit1.pas=C:\Project\MonitorOrders\UnitOrders.pas</Transaction>
+    <Transaction>2014.08.15 10:07:39.918.dfm,C:\Project\MonitorOrders\Unit1.dfm=C:\Project\MonitorOrders\UnitOrders.dfm</Transaction>
+    <Transaction>2014.08.15 10:10:58.230.pas,C:\Project\MonitorOrders\UnitOrders.pas=C:\Project\MonitorOrders\UnitOrderRows.pas</Transaction>
+    <Transaction>2014.08.15 10:10:58.230.dfm,C:\Project\MonitorOrders\UnitOrders.dfm=C:\Project\MonitorOrders\UnitOrderRows.dfm</Transaction>
+    <Transaction>2016.06.28 16:25:58.309.pas,C:\Project\MonitorOrders\Unit1.pas=C:\Project\MonitorOrders\UnitCheckGPS.pas</Transaction>
+    <Transaction>2016.06.28 16:25:58.309.dfm,C:\Project\MonitorOrders\Unit1.dfm=C:\Project\MonitorOrders\UnitCheckGPS.dfm</Transaction>
+    <Transaction>2016.08.25 15:08:47.187.pas,C:\Project\MonitorOrders\Unit1.pas=C:\Project\MonitorOrders\Unit_GPSInfo.pas</Transaction>
+    <Transaction>2016.08.25 15:08:47.187.dfm,C:\Project\MonitorOrders\Unit1.dfm=C:\Project\MonitorOrders\Unit_GPSInfo.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
